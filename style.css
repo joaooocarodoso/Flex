@@ -19,20 +19,26 @@ img {
 strong {
     color: rgb(179, 179, 10);
 }
+
 @keyframes myAnimation {
-  from {background-color: rgb(179, 179, 10);}
-  to {background-color: rgb(99, 90, 12);}
+    from {
+        background-color: rgb(179, 179, 10);
+    }
+
+    to {
+        background-color: rgb(99, 90, 12);
+    }
 }
 
 strong {
-  width: 100px;
-  height: 100px;
-  animation-name: myAnimation;
-  animation-duration: 10s;
-  border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    animation-name: myAnimation;
+    animation-duration: 10s;
+    border-radius: 5px;
 }
 
-body{
+body {
     background-image: image-set("https://wallpapercat.com/w/full/7/e/b/307052-1920x1080-desktop-full-hd-taxi-driver-movie-background.jpg");
 }
 
@@ -48,6 +54,7 @@ body{
     border-radius: 15px;
     background-color: rgb(99, 90, 12);
 }
+
 .qua {
     width: 200px;
     height: 200px;
