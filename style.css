@@ -103,4 +103,11 @@ section {
     background-color: rgb(129, 117, 5);
     border: 1px solid black;
     border-radius: 15px;
+    
+
+ }
+
+ .coisa img {
+    margin: auto;
+    display: block;
  }
