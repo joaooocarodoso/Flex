@@ -21,17 +21,43 @@ strong {
 }
 @keyframes myAnimation {
   from {background-color: rgb(179, 179, 10);}
-  to {background-color: rgb(145, 128, 106);}
+  to {background-color: rgb(99, 90, 12);}
 }
 
-/* The element to apply the animation to */
 strong {
   width: 100px;
   height: 100px;
   animation-name: myAnimation;
-  animation-duration: 12s;
+  animation-duration: 10s;
+  border-radius: 5px;
 }
 
 body{
     background-image: image-set("https://wallpapercat.com/w/full/7/e/b/307052-1920x1080-desktop-full-hd-taxi-driver-movie-background.jpg");
+}
+
+.section {
+    width: 700px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: rgb(99, 90, 12);
+}
+.qua {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(129, 117, 5);
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: auto;
+    padding: 1%;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bold;
 }
