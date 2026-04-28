@@ -1,5 +1,5 @@
 .main {
-    background-color: rgb(145, 128, 106);
+    background-color: rgb(99, 90, 12);
     width: 300px;
     height: 420px;
     margin: 40px auto;
@@ -7,14 +7,31 @@
     box-sizing: border-box;
     border-radius: 15px;
 }
-img{
+
+img {
     width: 260px;
     height: 200px;
     margin: 20px auto;
     box-sizing: border-box;
     border-radius: 15px;
- }
- strong {
+}
+
+strong {
     color: rgb(179, 179, 10);
- }
- 
+}
+@keyframes myAnimation {
+  from {background-color: rgb(179, 179, 10);}
+  to {background-color: rgb(145, 128, 106);}
+}
+
+/* The element to apply the animation to */
+strong {
+  width: 100px;
+  height: 100px;
+  animation-name: myAnimation;
+  animation-duration: 12s;
+}
+
+body{
+    background-image: image-set("https://wallpapercat.com/w/full/7/e/b/307052-1920x1080-desktop-full-hd-taxi-driver-movie-background.jpg");
+}
