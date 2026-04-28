@@ -6,6 +6,9 @@
     padding: 20px;
     box-sizing: border-box;
     border-radius: 15px;
+    border: 3px solid black;
+    font-family: monospace;
+    font-size: 14px;
 }
 
 img {
@@ -42,7 +45,7 @@ body {
     background-image: image-set("https://wallpapercat.com/w/full/7/e/b/307052-1920x1080-desktop-full-hd-taxi-driver-movie-background.jpg");
 }
 
-.section {
+section {
     width: 700px;
     height: 250px;
     display: flex;
@@ -53,6 +56,7 @@ body {
     box-sizing: border-box;
     border-radius: 15px;
     background-color: rgb(99, 90, 12);
+    border: 3px solid black;
 }
 
 .qua {
@@ -67,4 +71,36 @@ body {
     font-family: monospace;
     font-size: 14px;
     font-weight: bold;
+    text-align: center;
 }
+ .nova{
+    width: 80%;
+    height: 80vh;
+    background-color: rgb(99, 90, 12);
+    margin: auto;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: black;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+ header {
+    width: 100%;
+    background-color: rgb(129, 117, 5);
+    padding: 40px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: monospace;
+ }
+
+ .coisa {
+    width: 20%;
+    height: 33%;
+    background-color: rgb(129, 117, 5);
+    border: 1px solid black;
+    border-radius: 15px;
+ }
